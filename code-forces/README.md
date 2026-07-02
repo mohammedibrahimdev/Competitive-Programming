@@ -1,24 +1,19 @@
-# Codeforces
+# Competitive Programming
 
-This folder contains my Codeforces solutions organized by problem rating.
+## Platforms
 
-## Structure
+- Codeforces
 
-- 800
-- 900
-- 1000
-- 1100
-- 1200
-- ...
+## Progress
 
-## Languages
+- 800 Rating
+- 900 Rating
+- 1000 Rating
+- 1100 Rating
+- 1200 Rating
 
-- C
-- C++
-
-## Goal
-
-- Improve algorithmic thinking.
-- Solve progressively harder problems.
-- Strengthen problem-solving skills using C and C++.
-- Increase my Codeforces rating through consistent practice.
+Each solution includes:
+- Problem statement reference
+- Approach
+- Time Complexity
+- Space Complexity
