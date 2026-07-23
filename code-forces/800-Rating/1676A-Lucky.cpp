@@ -7,9 +7,6 @@ Topic:
 - Implementation
 - Strings
 
-Pattern:
-- Half Traversal
-
 Important:
 - Teaches splitting a string into two parts and processing each independently.
 
