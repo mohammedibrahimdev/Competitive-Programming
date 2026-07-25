@@ -11,9 +11,6 @@ Topic:
 Pattern:
 - Digit Extraction
 
-Important:
-- Teaches extracting digits of a number using modulo and division.
-
 Approach:
 - Read the number.
 - Extract each digit using `% 10`.
