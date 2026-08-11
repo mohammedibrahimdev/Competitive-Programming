@@ -14,7 +14,7 @@ Important:
 - Teaches identifying the unique element when all other elements are equal.
 
 Approach:
-- Use the first three elements to determine thethe common value.
+- Use the first three elements to determine the common value.
 - Traverse the array.
 - Find the element different from the common value.
 - Print its 1-based index.
