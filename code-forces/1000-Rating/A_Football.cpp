@@ -1,39 +1,40 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
-int main ()
-{
-    int n;
-    pair<string, int> team1 = {"" , 0};
-    pair<string, int> team2 = {"" , 0};
 
-    while (n--)
-    {
-        string goal;
+int main() {
+    int n;
+    cin >> n;
+
+    pair<string, int> team1 = {"", 0};
+    pair<string, int> team2 = {"", 0};
+
+    string goal;
+
+    for (int i = 0; i < n; i++) {
         cin >> goal;
 
-        if(team1.first == ""){
+        if (team1.first == "") {
             team1.first = goal;
             team1.second++;
         }
-        else if(goal == team1.first){
+        else if (goal == team1.first) {
             team1.second++;
         }
-        else if(team2.first == ""){
+        else if (team2.first == "") {
             team2.first = goal;
             team2.second++;
         }
         else {
-            team2.second ++;
+            team2.second++;
         }
     }
 
-    if(team1.second> team2.second){
-        cout << team1.first << endl;
+    if (team1.second > team2.second) {
+        cout << team1.first << '\n';
     }
-    else{
-        cout << team2.first << endl;
+    else {
+        cout << team2.first << '\n';
     }
-    
 
     return 0;
 }
